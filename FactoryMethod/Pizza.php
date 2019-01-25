@@ -19,7 +19,7 @@ class Pizza
      * @param string
      * @return string
      */
-    public function setPizzaName($pizza_name) :string
+    public function setPizzaName($pizza_name)
     {
         $this->pizza_name = $pizza_name;
     }

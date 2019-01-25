@@ -18,7 +18,7 @@ class BBKPizza
         $this->factory = $pizza;
     }
 
-    public function orderPizza($type)
+    public function orderPizza($type) : Pizza
     {
         // 制作披萨
         $the_pizza = $this->factory->createPizza($type);
@@ -27,5 +27,7 @@ class BBKPizza
         $the_pizza->prepare();
         $the_pizza->cut();
         $the_pizza->box();
+
+        return $the_pizza;
     }
 }

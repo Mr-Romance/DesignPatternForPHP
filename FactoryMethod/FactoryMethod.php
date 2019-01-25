@@ -4,6 +4,7 @@
 namespace FactoryMethod;
 /**
  *  工厂方法
+ *  定义了创建对象的接口，由子类决定要实例化的类是哪一个
  *
  * Class FactoryMethod
  * @package FactoryMethod

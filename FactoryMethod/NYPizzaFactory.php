@@ -1,4 +1,5 @@
 <?php
+
 namespace FactoryMethod;
 class NYPizzaFactory extends FactoryMethod
 {
@@ -14,10 +15,10 @@ class NYPizzaFactory extends FactoryMethod
         $pizza = null;
         if (0 == strcmp($type, 'cheeese')) {
             $pizza = new CheesePizza($type);
-            $pizza->setPizzaName($type . '纽约');
+            $pizza->setPizzaName($type . '纽约风味加工');
         } elseif (0 == strcmp($type, 'veggie')) {
             $pizza = new VeggiePizza($type);
-            $pizza->setPizzaName($type . '纽约');
+            $pizza->setPizzaName($type . '纽约风味加工');
         }
 
         return $pizza;
