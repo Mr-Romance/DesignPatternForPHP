@@ -7,7 +7,7 @@ namespace SimpleFactory;
  *  具体调用工厂的地方，这里是必败客披萨店
  *
  * Class BBKPizza
- * @package SimpleFactory
+ * @package FactorySimple
  */
 class BBKPizza
 {

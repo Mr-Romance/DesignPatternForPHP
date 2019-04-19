@@ -5,8 +5,8 @@ namespace SimpleFactory;
  *  简单工厂类
  *
  *  更像是一种编程习惯而不是设计模式
- * Class SimpleFactory
- * @package SimpleFactory
+ * Class FactorySimple
+ * @package FactorySimple
  */
 class SimpleFactory
 {
